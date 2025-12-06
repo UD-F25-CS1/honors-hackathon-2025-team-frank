@@ -4,18 +4,18 @@ from dataclasses import dataclass
 
 from meta import *
 
-set_website_title("Your Drafter Website")
-set_site_information(
-    author="frankhye@udel.edu",
-    description="""Welcome to the HACK INC login page. The
-    goal is pretty simple. Log in to your account by typing in
-    the password. """,
-    sources=["None"],
-    planning=["None"],
-    links=["None"]
-)
 hide_debug_information()
 set_website_framed(False)
+set_website_title("Your Drafter Website")
+set_site_information(
+    "frankhye@udel.edu",
+    """Welcome to the HACK INC login page. The
+    goal is pretty simple. Log in to your account by typing in
+    the password. """,
+    ["None"],
+    ["None"],
+    ["None"]
+)
 set_website_style("XP")
 
 @dataclass
