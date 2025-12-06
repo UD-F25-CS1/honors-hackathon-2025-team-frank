@@ -13,7 +13,7 @@ set_site_information(
     sources=["None"],
     planning=["None"],
     links=["None"]
-))
+)
 hide_debug_information()
 set_website_framed(False)
 set_website_style("XP")
