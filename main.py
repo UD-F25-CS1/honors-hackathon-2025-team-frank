@@ -9,6 +9,9 @@ set_site_information(
     """Welcome to the HACK INC login page. The
     goal is pretty simple. Log in to your account by typing in
     the password. """,
+    ["None"],
+    ["None"],
+    ["None"]
 )
 set_website_style("XP")
 
